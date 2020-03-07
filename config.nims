@@ -43,7 +43,7 @@ let sqlite_CFLAGS = [
   "-DSQLITE_USE_ALLOCA",                # Alloca is available
   "-DSQLITE_DEFAULT_WAL_SYNCHRONOUS=1", # Use WAL mode
   # "-DSQLITE_HAVE_ZLIB",               # Zlib not used
-  # "-DSQLITE_ENABLE_FTS3",             # FTS3 not used
+  # "-DSQLITE_ENABLE_FTS4",             # FTS3/4 not used
   # "-DSQLITE_ENABLE_FTS5",             # FTS5 not used
   # "-DSQLITE_ENABLE_JSON1",            # Json not used
   # "-DSQLITE_ENABLE_RTREE",            # Rtree not used
