@@ -1,2 +1,4 @@
 sqlite3.[co]
 sql_test
+*.sqlite
+*.etisql
